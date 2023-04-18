@@ -1,0 +1,43 @@
+.main-visual{
+  padding-top: 50px 0;
+}
+
+.rist{
+  width: 960px;
+  padding: 20px 0;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.rist:nth-child(odd){
+  background-color: #6c6b6b
+}
+
+.main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square{
+  width: 30%;
+  height: 200px;
+  background-color: #ffd700;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.square:first-child,
+.square:nth-child(5),
+.square:last-child {
+  background-color: #ff8c00;
+}
+
+.square:nth-child(3n) {
+  margin-right: 0;
+}
+
+.square:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
